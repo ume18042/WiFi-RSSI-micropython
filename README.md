@@ -1,2 +1,3 @@
 # WiFi-RSSI-micropython
-micropythonでWiFiのRSSIを取得
+ESP32でWiFiのRSSIを取得
+言語：micropython(ver:1.18)
