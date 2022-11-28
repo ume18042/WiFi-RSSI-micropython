@@ -11,10 +11,10 @@ wlan.active(True)
 
 
 def send_db(name1,rssi1,name2,rssi2,name3,rssi3): #mongo dbに送るやつ
-    url = 'http://iot-database.a910.tak-cslab.org:3000/iot'
+    url = 'dbのurlを記入'
     payload = {
-        "db": "umeda",
-        "collection": "rssi1m",
+        "db": "db名",
+        "collection": "コレクション名",
         "data": {
             "name1": name1,
             "rssi1": rssi1,
@@ -55,5 +55,3 @@ if __name__ == '__main__':
     print('start')
     while True:
         rssi()
-    
-print('end')
